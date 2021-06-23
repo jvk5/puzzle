@@ -1,6 +1,7 @@
-﻿@import url(//db.onlinewebfonts.com/c/007f636c4af6a332a98f32cc3cee8cb4?family=Eurostile+Extended+#2);
+@import url(//db.onlinewebfonts.com/c/007f636c4af6a332a98f32cc3cee8cb4?family=Eurostile+Extended+#2);
+@import url('http://fonts.cdnfonts.com/css/skoda-pro');
 body {
-    font-family: 'Segoe UI', Calibri, Arial;
+    font-family: "Eurostile Extended #2";
     margin:0;
     background-color: black;
 }
