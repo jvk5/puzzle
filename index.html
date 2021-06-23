@@ -43,13 +43,15 @@
             </div>
         </div>
         <div id="gameOver" style="display:none;">
-            <div style="background-color: #00800d; opacity: .8; padding: 5px 10px 20px 10px; text-align: center; ">
-                <h2 style="text-align:center">Game Over!!</h2>
-                Congratulations!! <br /> You have completed this picture.
+            <div style="background-color: #38963b; padding: 5px 10px 20px 10px; text-align: center; ">
+                <h2 style="text-align:center"> Congratulations!</h2>
+                You have completed this puzzle.<br /> Take a screenshot of this <br/> 
+                and DM us on instagram. <br/> Stay Tuned.
                 <br /> Steps: <span id="stepCount" class="stepCount">0</span> steps.
                 <br /> Time Taken: <span class="timeCount">0</span> seconds<br />
                 <div>
-                    <button type="button" onclick="window.location.reload(true);">Play Again</button>
+                    <button type="button" onclick="window.location.reload(true);" style="margin-top: 10px;">
+                        Try Again</button>
                 </div>
             </div>
         </div>
@@ -57,8 +59,6 @@
             var images = [
                 { src: "./images/oct.png"},
             ];
-            // var images = document.createElement("imags");
-            //     images.src = "./images/oct.png";
             window.onload = function () {
                 var gridSize = document.querySelector('#levelPanel input[type="radio"]:checked').getAttribute('value');
                 imagePuzzle.startGame(images, gridSize);
